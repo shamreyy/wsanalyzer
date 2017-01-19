@@ -15,4 +15,7 @@
     echo "Website 2 = [".$ws2."]    Server = [".$ss2."]<br />";
     echo "Website 3 = [".$ws3."]    Server = [".$ss3."]<br />";
     echo "Website 4 = [".$ws4."]    Server = [".$ss4."]<br />";
+
+    $result = dns_get_record($ws1);
+    print_r($result);
 ?>
