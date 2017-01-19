@@ -1,3 +1,3 @@
 <?php
-echo "TEST";
+echo "WSANALYZER TEST";
 ?>
